@@ -158,7 +158,7 @@ const Index = () => {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-accent/20 rounded-3xl transform rotate-3"></div>
               <img 
-                src={iflahPortrait}
+                src="/lovable-uploads/630e53b4-9331-40a9-8720-d1a70d53334f.png"
                 alt="Iflah"
                 className="relative w-full max-w-md mx-auto rounded-3xl shadow-luxury"
               />
