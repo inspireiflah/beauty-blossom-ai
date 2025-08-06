@@ -248,6 +248,9 @@ const Index = () => {
             <p className="text-xl text-muted-foreground mb-8">
               Explore some of my past UGC and AI-powered ads created for beauty and skincare brands.
             </p>
+            <p className="text-lg text-center text-muted-foreground/80 mb-6 mt-4">
+              ✨ See real examples of UGC-style ad creatives I've made for clients!
+            </p>
             <Card className="card-gradient max-w-2xl mx-auto">
               <CardContent className="p-8 text-center">
                 <Play className="h-16 w-16 text-primary mx-auto mb-4" />
