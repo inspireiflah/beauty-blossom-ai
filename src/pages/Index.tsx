@@ -127,7 +127,7 @@ const Index = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 
               size="lg"
-              onClick={() => scrollToSection("contact")}
+              onClick={() => window.open("https://calendly.com/iflahlch/30min", "_blank")}
               className="btn-primary text-lg px-8 py-4 rounded-full"
             >
               <Calendar className="mr-2 h-5 w-5" />
@@ -255,7 +255,10 @@ const Index = () => {
                 <p className="text-muted-foreground mb-6">
                   Watch real campaigns that drove thousands in revenue for beauty brands
                 </p>
-                <Button className="btn-primary">
+                <Button 
+                  className="btn-primary"
+                  onClick={() => window.open("https://drive.google.com/drive/folders/19Pl3GbouM_rmkfTUu4Cw_T7EGWiHVbkH?usp=sharing", "_blank")}
+                >
                   <Play className="mr-2 h-4 w-4" />
                   View Sample Ads
                 </Button>
@@ -430,7 +433,11 @@ const Index = () => {
                       required
                     />
                   </div>
-                  <Button type="submit" className="btn-primary w-full rounded-full">
+                  <Button 
+                    type="button"
+                    className="btn-primary w-full rounded-full"
+                    onClick={() => window.open("https://calendly.com/iflahlch/30min", "_blank")}
+                  >
                     <Calendar className="mr-2 h-4 w-4" />
                     Book My Call
                   </Button>
