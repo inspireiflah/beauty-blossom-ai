@@ -45,9 +45,12 @@ const Index = () => {
     e.preventDefault();
     toast({
       title: "Thank you!",
-      description: "Your free PDF guide will be sent to your email shortly.",
+      description: "Your free guide is on the way…",
     });
     setLeadForm({ name: "", email: "", whatsapp: "" });
+    
+    // Redirect to PDF in new tab
+    window.open("https://www.canva.com/design/DAGvUzwraTQ/oBjeVyJBTk6Fo2k8sGmfqg/edit?utm_content=DAGvUzwraTQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton", "_blank");
   };
 
   const handleBookingSubmit = (e: React.FormEvent) => {
